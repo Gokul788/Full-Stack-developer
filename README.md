@@ -21,7 +21,7 @@ The design is minimalistic and responsive, focusing on clean presentation and ea
 
 ## How to view
 
-You can access my portfolio website by visiting [link]. Feel free to explore the contant and get in touch!
+You can access my portfolio website by visiting [https://gokul788.github.io/portfolio-simple-website/]. Feel free to explore the contant and get in touch!
 
 Feel free to explore, and let me know if you have any feedback or suggestions!
 
