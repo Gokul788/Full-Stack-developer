@@ -1,0 +1,114 @@
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* UTILITY CLASSES */
+
+/* VARIABLES */
+:root{
+    --BGCOLOR1:black;
+    --FONTCOLOR1:white;
+    --BUTTONCOLOR:orangered;
+    --LINKCOLOR:skyblue;
+    --BGCOLOR2: rgb(0, 60, 255);
+    --BGCOLOR3: rgb(255, 94, 0);
+} 
+/* GENERAL STYLES */
+
+body{
+    font-family: "Young Serif", serif;
+}
+
+.container{
+    padding: 2rem;
+}
+
+.section-one{
+    display: block;
+    background-color: var(--BGCOLOR1);
+    color: var(--FONTCOLOR1);
+    padding: 20px;
+}
+
+.section-one__contact{
+    display: inline-block;
+    background-color:var(--BUTTONCOLOR);
+    color: var(--FONTCOLOR1);
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px 5px 10px;
+    margin-top: 7px;
+    border-radius: 5px;
+}
+
+.section-one__name{
+    font-size: 60px;
+}
+.section-one__role{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+:where(.section-two,.section-three,.section-four,.section-five){
+    margin-top: 20px;
+}
+
+:where(.section-two__paragraph,.section-three__points,.section-four__points,.section-five__points){
+    margin-top: 10px;
+}
+.section-five{
+    background-color: var(--BGCOLOR1);
+    color: var(--FONTCOLOR1);
+    padding: 20px;
+}
+.section-five a{
+    color: var(--LINKCOLOR);
+}
+
+:where(.section-three ul,.section-four ul){
+    list-style-type: none;
+}
+.section-three{
+    display: inline-block;
+    background-color:var(--BGCOLOR2);
+    padding: 20px 20px 65px 20px;
+    border-radius: 10px;
+    
+}
+.section-three__points{
+    line-height: 30px;
+}
+.section-four{
+    display:inline-block;
+    background-color: var(--BGCOLOR3);
+    padding: 20px;
+    border-radius:10px ;
+    vertical-align: top;
+}
+.contact-form{
+    margin-top: 20px;
+    
+}
+:where(.contact-form__input,.contact-form__textarea,.contact-form__submit){
+    margin-top: 10px;
+}
+.contact-form__input{
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid var(--BGCOLOR1);
+}
+.contact-form__textarea{
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid var(--BGCOLOR1);
+}
+.contact-form__submit{
+    padding: 7px 10px 7px 10px;
+    border-bottom: 1px solid var(--BGCOLOR1);
+    background-color: var(--BUTTONCOLOR);
+    border-radius: 7px;
+}
